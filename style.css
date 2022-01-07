@@ -4,18 +4,31 @@ body{
 h1{
     font-size: 50px;
 }
-.orange-color{
+.color1{
     color: rgb(134, 121, 253);
 }
 section{
     display: flex;
+    padding-bottom: none;
+  
+}
+.heading-border
+{
+    border-left:6px solid orangered;
+    line-height: 40px;
+    padding-left: 10px;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    
 }
 .half-width img{
     width: 70%;
+    padding-left: 30%;
+    margin-top: 20px;
 }
 .link-button{
     text-decoration: none;
@@ -24,4 +37,14 @@ section{
     color: whitesmoke;
     font-weight: 700;
     border-radius: 5px;
+}
+    p1{
+        border-left: 10px saddlebrown;
+    }
+}
+#box-image img
+{
+     width:10px;
+     height:15px;
+
 }
