@@ -9,7 +9,8 @@ h1{
 }
 section{
     display: flex;
-    padding-bottom: none;
+    
+
   
 }
 .heading-border
@@ -42,9 +43,8 @@ section{
         border-left: 10px saddlebrown;
     }
 }
-#box-image img
-{
-     width:10px;
-     height:15px;
 
+.footer{
+    min-height: 50px;
+    text-align: center;
 }
